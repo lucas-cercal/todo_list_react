@@ -2,18 +2,11 @@
   margin: 0;
   padding: 0;
   height: 100%;
-}
-
-.main h1 {
   text-align: center;
+  padding-bottom: 150px;
 }
 
 #wrapper {
   min-height: 100%;
   position: relative;
-}
-
-div.body-content {
-  /** Altura do rodapé tem que ser igual a isso aqui e vice-versa **/
-  padding-bottom: 150px;
 }
