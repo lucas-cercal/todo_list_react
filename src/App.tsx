@@ -11,7 +11,7 @@ function App() {
   return <div>
     <Header />
     <main className={styles.main}>
-      <h1>Conteúdo...</h1>
+      <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</h1>
     </main>
     <Footer />
   </div>
