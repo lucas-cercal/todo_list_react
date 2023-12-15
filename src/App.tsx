@@ -20,11 +20,11 @@ function App() {
     <main className={styles.main}>
       <div>
         <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</h1>
-        <TaskForm btnText='Criar tarefa' taskList={taskList} setTaskList={setTaskList}/>
+        <TaskForm btnText='Criar tarefa' taskList={taskList} setTaskList={setTaskList} />
       </div>
       <div>
         <h2>Suas tarefas</h2>
-        <TaskList />
+        <TaskList taskList={taskList} />
       </div>
     </main>
     <Footer />
