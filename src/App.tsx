@@ -1,15 +1,15 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
 // components
-import Header from './components/Header';
-import TaskForm from './components/TaskForm';
-import TaskList from './components/TaskList';
+import Header from './components/Header'
+import TaskForm from './components/TaskForm'
+import TaskList from './components/TaskList'
 
 // css
 import styles from './App.module.css'
 
 // interfaces
-import { ITask } from './interfaces/Task';
+import { ITask } from './interfaces/Task'
 
 function App() {
   const [taskList, setTaskList] = useState<ITask[]>([])
@@ -37,4 +37,4 @@ function App() {
   </div>
 }
 
-export default App;
+export default App
