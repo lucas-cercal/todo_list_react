@@ -10,8 +10,7 @@ interface Props {
 const Modal = ({ children }: Props) => {
 
   const closeModal = (e: MouseEvent): void => {
-    const modal = document.querySelector('#modal')
-    modal!.classList.add('hide')
+    document.getElementById("modal")!.style.display = 'none'
   }
 
   return (
