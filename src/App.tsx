@@ -2,7 +2,6 @@ import { useState } from 'react';
 
 // components
 import Header from './components/Header';
-import Footer from './components/Footer';
 import TaskForm from './components/TaskForm';
 import TaskList from './components/TaskList';
 
@@ -19,7 +18,7 @@ function App() {
     <Header />
     <main className={styles.main}>
       <div>
-        <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</h1>
+        <h1>O que você vai fazer?</h1>
         <TaskForm btnText='Criar tarefa' taskList={taskList} setTaskList={setTaskList} />
       </div>
       <div>
@@ -27,7 +26,6 @@ function App() {
         <TaskList taskList={taskList} />
       </div>
     </main>
-    <Footer />
   </div>
 }
 
