@@ -52,13 +52,13 @@ const TaskForm = ({ btnText, taskList, setTaskList, task, handleUpdate }: Props)
     <form onSubmit={addTaskHandler} className={styles.form}>
       <div className={styles.input_container}>
         <label htmlFor='title'>Título: </label>
-        <input type='text' name='title' placeholder='Título da tarefa' onChange={handleChange} value={title} required />
+        <input type='text' name='title' placeholder='Título da tarefa' onChange={handleChange} value={title} required data-cy='input-title' />
       </div>
       <div className={styles.input_container}>
         <label htmlFor='difficulty'>Dificuldade: </label>
-        <input type='number' name='difficulty' placeholder='Dificuldade da tarefa' onChange={handleChange} value={difficulty} required />
+        <input type='number' name='difficulty' placeholder='Dificuldade da tarefa' onChange={handleChange} value={difficulty} required data-cy='input-difficulty'/>
       </div>
-      <input type='submit' value={btnText} />
+      <input type='submit' value={btnText} data-cy='input-button'/>
     </form>
   )
 }
