@@ -1,10 +1,10 @@
 import { useState } from 'react'
 
 // components
-import Header from './components/Header'
-import TaskForm from './components/TaskForm'
-import TaskList from './components/TaskList'
-import Modal from './components/Modal'
+import Header from './components/Header/Header'
+import TaskForm from './components/TaskForm/TaskForm'
+import TaskList from './components/TaskList/TaskList'
+import Modal from './components/Modal/Modal'
 
 // css
 import styles from './App.module.css'

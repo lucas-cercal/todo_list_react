@@ -1,5 +1,5 @@
 import React from 'react'
-import getYear from '../utils/dateUtils'
+import getYear from '../../utils/dateUtils'
 import styles from './Header.module.css'
 
 const Header = () => {

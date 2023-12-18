@@ -1,6 +1,6 @@
 
 // interfaces
-import { ITask } from '../interfaces/Task'
+import { ITask } from '../../interfaces/Task'
 
 // css
 import styles from './TaskList.module.css'

@@ -2,7 +2,7 @@ import { useState, useEffect, ChangeEvent, FormEvent } from 'react'
 
 import styles from './TaskForm.module.css'
 
-import { ITask } from '../interfaces/Task'
+import { ITask } from '../../interfaces/Task'
 
 interface Props {
   btnText: string
