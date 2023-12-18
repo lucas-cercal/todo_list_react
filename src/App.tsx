@@ -4,10 +4,10 @@ import { useState } from 'react'
 import Header from './components/Header'
 import TaskForm from './components/TaskForm'
 import TaskList from './components/TaskList'
+import Modal from './components/Modal'
 
 // css
 import styles from './App.module.css'
-import Modal from './components/Modal'
 
 // interfaces
 import { ITask } from './interfaces/Task'
