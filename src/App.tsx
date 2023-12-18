@@ -7,6 +7,7 @@ import TaskList from './components/TaskList'
 
 // css
 import styles from './App.module.css'
+import Modal from './components/Modal'
 
 // interfaces
 import { ITask } from './interfaces/Task'
@@ -23,6 +24,7 @@ function App() {
   }
 
   return <div>
+    <Modal />
     <Header />
     <main className={styles.main}>
       <div>
